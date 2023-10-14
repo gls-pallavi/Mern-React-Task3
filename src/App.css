@@ -1,0 +1,50 @@
+.color-picker-container {
+  background-color: lightpink;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  width: 1000px;
+  height: 70vh;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 650px;
+  color: #333;
+  font-size: 24px;
+}
+
+.color-button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.color-list {
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightpink;
+}
+
+.color-square {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  background-color: #B99FC4;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
